@@ -1,10 +1,16 @@
-const os = require("os");
+const fs = require("fs");
 const path = require("path");
 
-console.log(os.homedir());
+fs.readFile(path.join(__dirname, "text.txt"), "utf-8", (err, data) => {
+  if (err) throw err;
+  console.log(data);
+});
 
-console.log(__dirname);
+console.log("1");
 
-console.log(__filename);
+fs.writeFile(path.join(__dirname, "op.txt"), "text reply", (err) => {
+  if (err) throw err;
+  console.log("success");
+});
 
-console.log(path.parse(__filename));
+console.log("2");
