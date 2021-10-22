@@ -1,16 +1,11 @@
-const fs = require("fs");
-const path = require("path");
+const logEvents = require("./logEvents");
 
-fs.readFile(path.join(__dirname, "text.txt"), "utf-8", (err, data) => {
-  if (err) throw err;
-  console.log(data);
-});
+const EventEmitter = require("events");
 
-console.log("1");
+class MyEmitter extends EventEmitter {}
 
-fs.writeFile(path.join(__dirname, "op.txt"), "text reply", (err) => {
-  if (err) throw err;
-  console.log("success");
-});
+const myEmitter = new MyEmitter();
 
-console.log("2");
+myEmitter.on("log", (msg) => logEvents(msg));
+
+myEmitter.emit("log", "Log event emitted");
