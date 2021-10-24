@@ -1,7 +1,31 @@
 const express = require("express");
-
+const cors = require("cors");
 const app = express();
 const path = require("path");
+const logger = require("./middlewares/logEvents");
+
+// custom middleware logger
+
+app.use(logger);
+/*
+const whitelist = ["http://localhost:5000"];
+
+const corsOptions = {
+  origin: (origin, callback) => {
+    if (whitelist.indexOf(origin) !== -1) {
+      console.log("lkl");
+      callback(null, true);
+    } else {
+      callback(new Error("Not alowed by CORS"));
+    }
+  },
+  optionsSuccessStatus: 200,
+};
+app.use(cors(corsOptions));
+
+*/
+
+app.use(cors());
 
 app.use(express.urlencoded({ extended: false }));
 
