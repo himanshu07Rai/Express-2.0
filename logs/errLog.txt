@@ -1,0 +1,1 @@
+24/10/2021	22:29:49	82234a4f-8f02-4aaa-b479-cafd5b9d2207	Error: Not alowed by CORS
