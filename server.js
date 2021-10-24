@@ -1,25 +1,19 @@
-const http = require("http");
+const express = require("express");
+
+const app = express();
 const path = require("path");
-const fs = require("fs");
-const fsPromises = require("fs").promises;
 
-const logEvents = require("./logEvents");
+app.get("^/$|/index(.html)?", (req, res) => {
+  res.sendFile(path.join(__dirname, "views", "index.html"));
+});
+app.get("^/new$|/new-page(.html)?", (req, res) => {
+  res.sendFile(path.join(__dirname, "views", "new-page.html"));
+});
 
-const EventEmitter = require("events");
-
-class Emitter extends EventEmitter {}
-
-const myEmitter = new Emitter();
-
-// myEmitter.on("log", (msg) => logEvents(msg));
-
-// myEmitter.emit("log", "Log event emitted");
+app.get("^/users/:userId([0-9]{6})", function (req, res) {
+  res.send("Route match for User ID: " + req.params.userId);
+});
 
 const PORT = process.env.PORT || 5000;
 
-const server = http.createServer((req, res) => {
-  console.log(`${req.url}\t${req.method}
-  `);
-});
-
-server.listen(PORT, () => console.log(`Server runnig on port ${PORT}`));
+app.listen(PORT, () => console.log(`Server runnig on port ${PORT}`));
