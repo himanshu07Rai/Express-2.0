@@ -29,18 +29,11 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 app.use(express.static(path.join(__dirname, "public")));
+app.use("/subdir", express.static(path.join(__dirname, "public")));
 
-app.get("^/$|/index(.html)?", (req, res) => {
-  res.sendFile(path.join(__dirname, "views", "index.html"));
-});
-app.get("^/new$|/new-page(.html)?", (req, res) => {
-  res.sendFile(path.join(__dirname, "views", "new-page.html"));
-});
-
-app.get("^/users/:userId([0-9]{6})", function (req, res) {
-  res.send("Route match for User ID: " + req.params.userId);
-});
-
+app.use("/", require("./routes/index"));
+app.use("/subdir", require("./routes/subdir"));
+app.use("/employees", require("./routes/api/employees"));
 app.all("*", (req, res) => {
   res.status(404);
   if (req.accepts("html")) {
