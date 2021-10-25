@@ -1,2 +1,3 @@
 24/10/2021	22:29:49	82234a4f-8f02-4aaa-b479-cafd5b9d2207	Error: Not alowed by CORS
 24/10/2021	22:48:64	61837208-83e9-4540-ae9f-c2c76f7d579b	Error: ENOENT: no such file or directory, stat '/home/archie/Dev/Express 2.0/routes/views/index.html'
+25/10/2021	12:44:12	79c7f384-bc53-40cf-b8fb-8a64d4d41d54	Error: Not alowed by CORS

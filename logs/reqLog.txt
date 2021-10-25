@@ -71,3 +71,11 @@
 25/10/2021	12:29:89	470623e5-b53b-46e8-bcb2-ac316a1947b4	GET	undefined	/employees
 25/10/2021	12:32:85	ac3b276e-0fc2-4aac-a6a7-460754f3a98b	GET	undefined	/employees
 25/10/2021	12:33:52	b6626850-8ac7-40f9-97e4-8c84242c8a5b	GET	undefined	/employees
+25/10/2021	12:36:56	fb225daf-69b8-4811-bd67-6eb570639e71	GET	undefined	/employees
+25/10/2021	12:39:59	aa839e3f-e29e-41f4-96b3-843bd68dcdf5	GET	undefined	/employees
+25/10/2021	12:44:31	6bfa070f-d8da-4684-a4d4-62a23b5067a2	GET	undefined	/employees
+25/10/2021	12:44:11	db05be67-69df-4474-ab74-305780d397f7	GET	undefined	/employees
+25/10/2021	12:48:57	f68ac65c-9dd2-4615-b244-9f9fdf977840	GET	undefined	/auth
+25/10/2021	12:49:95	5a04f6da-c17b-456c-9d30-a497d5856858	GET	undefined	/auth
+25/10/2021	12:50:35	2d925d81-58fd-425d-806c-24dce1005f55	GET	undefined	/auth
+25/10/2021	12:50:67	04976903-1b7d-4cb6-9f7a-4c9adb3677ad	GET	undefined	/auth
