@@ -63,3 +63,11 @@
 24/10/2021	23:07:47	e5f7ae25-6794-4d01-98c9-533624280416	GET	undefined	/employees
 24/10/2021	23:08:95	2dbd3845-ee91-468d-bbf3-7f80affa78e3	GET	undefined	/employees
 24/10/2021	23:09:17	cf86a016-4820-4f0d-b0d0-818b8bae68c8	GET	undefined	/employees
+25/10/2021	12:25:56	2ebf9e03-1482-4fb8-9013-7c7d287deb60	GET	undefined	/
+25/10/2021	12:25:86	a3ac9a39-15cc-43b3-aa0e-70927b6d9901	GET	undefined	/css/style.css
+25/10/2021	12:25:92	2ced00ef-e503-44b5-92a9-e87831fce46c	GET	undefined	/favicon.ico
+25/10/2021	12:25:68	85434ea3-9f9c-4e12-b610-23796acecd88	GET	undefined	/employees
+25/10/2021	12:29:43	a1f45f43-b4ed-47e2-9aed-a14238c1d65b	GET	undefined	/employees
+25/10/2021	12:29:89	470623e5-b53b-46e8-bcb2-ac316a1947b4	GET	undefined	/employees
+25/10/2021	12:32:85	ac3b276e-0fc2-4aac-a6a7-460754f3a98b	GET	undefined	/employees
+25/10/2021	12:33:52	b6626850-8ac7-40f9-97e4-8c84242c8a5b	GET	undefined	/employees

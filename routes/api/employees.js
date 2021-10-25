@@ -9,7 +9,6 @@ data.employees = require("../../data/data.json");
 router
   .route("/")
   .get((req, res) => {
-    console.log("1");
     res.json(data.employees);
   })
   .post((req, res) => {
