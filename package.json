@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/himanshu07Rai/Express-2.0#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "date-fns": "^2.25.0",
     "express": "^4.17.1",
