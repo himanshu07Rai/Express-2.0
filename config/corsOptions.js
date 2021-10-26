@@ -1,8 +1,7 @@
-const whitelist = ["http://localhost:5000", "http://localhost:3000"];
-
+const allowedOrigins = require("./allowedOrigins");
 module.exports = {
   origin: (origin, callback) => {
-    if (whitelist.indexOf(origin) !== -1 || !origin) {
+    if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
       callback(null, true);
     } else {
       callback(new Error("Not alowed by CORS"));

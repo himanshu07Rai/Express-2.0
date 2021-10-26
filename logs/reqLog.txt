@@ -143,3 +143,7 @@
 26/10/2021	23:50:35	0c240857-60c4-4c74-a139-7a932206b645	GET	undefined	/refresh
 26/10/2021	23:50:97	916afc77-bc24-4c38-b5f5-8348f6057098	GET	undefined	/refresh
 26/10/2021	23:50:87	eae54bf0-fdda-48ce-8ead-63198839c2f6	GET	undefined	/refresh
+26/10/2021	23:58:67	681e31a1-62aa-433e-91c4-615677282279	POST	undefined	/auth
+26/10/2021	23:59:44	a7ab881d-0a7d-4e8a-a563-dfa706ee73db	GET	undefined	/logout
+26/10/2021	23:59:27	3eedaf63-e87c-4c62-a126-b76ac144ea96	GET	undefined	/refresh
+27/10/2021	00:00:38	dac4901e-2cae-495e-a96b-729e3f2308e2	GET	undefined	/refresh

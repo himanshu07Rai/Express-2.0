@@ -8,9 +8,12 @@ const { logger } = require("./middlewares/logEvents");
 const errorHandler = require("./middlewares/errorHandler");
 const corsOptions = require("./config/corsOptions");
 const verifyJWT = require("./middlewares/verifyJWT");
+const credentials = require("./middlewares/credentials");
 const PORT = process.env.PORT || 5000;
 
 app.use(logger);
+
+app.use(credentials);
 
 app.use(cors(corsOptions));
 
@@ -28,6 +31,7 @@ app.use("/employees", verifyJWT, require("./routes/api/employees"));
 app.use("/register", require("./routes/api/register"));
 app.use("/auth", require("./routes/api/auth"));
 app.use("/refresh", require("./routes/api/refresh"));
+app.use("/logout", require("./routes/api/logout"));
 
 app.all("*", (req, res) => {
   res.status(404);
