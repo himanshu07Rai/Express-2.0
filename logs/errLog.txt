@@ -3,3 +3,5 @@
 25/10/2021	12:44:12	79c7f384-bc53-40cf-b8fb-8a64d4d41d54	Error: Not alowed by CORS
 25/10/2021	20:13:07	e2106b7b-674e-47c9-a74a-07e455ec3562	ReferenceError: aithHeader is not defined
 25/10/2021	20:13:13	2b9c5d2f-58dd-4b64-8e2b-79085af957a7	ReferenceError: sendStatus is not defined
+26/10/2021	23:49:22	3676d261-efe3-46ab-b722-68e9a90b8a38	ReferenceError: request is not defined
+26/10/2021	23:49:65	0413e853-48fa-4fc7-8f6d-d6c57a94d2e7	ReferenceError: request is not defined

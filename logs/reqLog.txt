@@ -129,3 +129,17 @@
 25/10/2021	21:27:14	eef30b36-fff4-41d1-927d-9c08d7080530	GET	undefined	/employees
 25/10/2021	21:30:13	d4cde88d-9d2a-4354-aaee-e384f1758f61	POST	undefined	/login
 25/10/2021	21:30:08	44627e04-86e7-4b89-8a70-6c7484efa77a	GET	undefined	/employees
+26/10/2021	23:23:41	bea7416d-2f50-4383-ace8-8e0d78db8a17	POST	undefined	/login
+26/10/2021	23:23:83	80a9f9ae-82ae-4f01-90d4-375fb1c244cc	GET	undefined	/employees
+26/10/2021	23:48:99	d4657cd1-fe46-480e-8578-c6939533db68	POST	undefined	/auth
+26/10/2021	23:49:21	8462be13-eb6f-4a39-adb0-07a3b0024367	GET	undefined	/refresh
+26/10/2021	23:49:64	a3e91cff-8cea-4aa7-a7bb-19efe99a2be6	GET	undefined	/refresh
+26/10/2021	23:50:87	606d16be-bad7-47e7-bfa3-636ea101f37e	GET	undefined	/refresh
+26/10/2021	23:50:78	0131c553-e378-4207-8c8f-65a34e06aa14	GET	undefined	/refresh
+26/10/2021	23:50:83	7a141a92-9c82-462b-b510-6b3163aa1a37	GET	undefined	/refresh
+26/10/2021	23:50:61	f5244422-136e-44a5-84c1-2969767db5f3	GET	undefined	/refresh
+26/10/2021	23:50:37	47d05a44-9b02-411e-98eb-3c45d97d5b9f	GET	undefined	/refresh
+26/10/2021	23:50:33	cc941fc6-e499-47cb-8bff-e65130996e6d	GET	undefined	/refresh
+26/10/2021	23:50:35	0c240857-60c4-4c74-a139-7a932206b645	GET	undefined	/refresh
+26/10/2021	23:50:97	916afc77-bc24-4c38-b5f5-8348f6057098	GET	undefined	/refresh
+26/10/2021	23:50:87	eae54bf0-fdda-48ce-8ead-63198839c2f6	GET	undefined	/refresh

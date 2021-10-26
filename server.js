@@ -2,9 +2,12 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 const path = require("path");
+const cookieParser = require("cookie-parser");
+
 const { logger } = require("./middlewares/logEvents");
 const errorHandler = require("./middlewares/errorHandler");
 const corsOptions = require("./config/corsOptions");
+const verifyJWT = require("./middlewares/verifyJWT");
 const PORT = process.env.PORT || 5000;
 
 app.use(logger);
@@ -15,13 +18,16 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use(express.json());
 
+app.use(cookieParser());
+
 app.use(express.static(path.join(__dirname, "public")));
 
 // routes
 app.use("/", require("./routes/index"));
-app.use("/employees", require("./routes/api/employees"));
+app.use("/employees", verifyJWT, require("./routes/api/employees"));
 app.use("/register", require("./routes/api/register"));
-app.use("/login", require("./routes/api/auth"));
+app.use("/auth", require("./routes/api/auth"));
+app.use("/refresh", require("./routes/api/refresh"));
 
 app.all("*", (req, res) => {
   res.status(404);
