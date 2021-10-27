@@ -147,3 +147,13 @@
 26/10/2021	23:59:44	a7ab881d-0a7d-4e8a-a563-dfa706ee73db	GET	undefined	/logout
 26/10/2021	23:59:27	3eedaf63-e87c-4c62-a126-b76ac144ea96	GET	undefined	/refresh
 27/10/2021	00:00:38	dac4901e-2cae-495e-a96b-729e3f2308e2	GET	undefined	/refresh
+28/10/2021	01:38:21	6f474d70-f1e7-431e-aa86-0f9369d2e939	POST	undefined	/register
+28/10/2021	01:41:23	dcdad5a0-d064-4c06-8500-da6f3bb945bf	POST	undefined	/auth
+28/10/2021	01:42:48	dfb60c96-23d3-4126-b743-5ad9e921eba5	GET	undefined	/employees
+28/10/2021	01:42:91	990d3599-1d22-4d77-bcab-89946793f870	POST	undefined	/employees
+28/10/2021	01:43:99	9719fcff-bd91-4e3e-a8bb-bfabf73aced5	POST	undefined	/employees
+28/10/2021	01:44:55	e3bbe577-42cc-4fa2-b828-ae31cbb17542	POST	undefined	/auth
+28/10/2021	01:44:71	a27456fa-db75-495e-af89-67b6a0fb7b2f	GET	undefined	/employees
+28/10/2021	01:44:30	48b659af-8711-4a0b-86e2-c513cf6fc518	GET	undefined	/employees
+28/10/2021	01:45:67	798a73f8-03fb-4b3d-b525-738b92cb3b68	GET	undefined	/employees
+28/10/2021	01:45:23	31bcb16c-b1c4-4810-b532-d51484d57afd	POST	undefined	/employees
