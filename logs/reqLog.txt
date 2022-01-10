@@ -157,3 +157,8 @@
 28/10/2021	01:44:30	48b659af-8711-4a0b-86e2-c513cf6fc518	GET	undefined	/employees
 28/10/2021	01:45:67	798a73f8-03fb-4b3d-b525-738b92cb3b68	GET	undefined	/employees
 28/10/2021	01:45:23	31bcb16c-b1c4-4810-b532-d51484d57afd	POST	undefined	/employees
+28/10/2021	17:43:03	88d197f3-d42f-4280-8e83-754968045eca	POST	undefined	/auth
+28/10/2021	18:03:16	0dc321a7-a24a-459e-87aa-80196e65d437	POST	undefined	/register
+28/10/2021	18:05:00	6b167c05-d53b-4cb4-93d2-73b6ad87f1bf	POST	undefined	/auth
+28/10/2021	18:07:93	00754ba4-e1a5-47c8-83ae-2c3b84f364c3	GET	undefined	/refresh
+28/10/2021	18:09:53	3a53c831-649b-415a-bcd5-cf787c465a89	GET	undefined	/refresh

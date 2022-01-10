@@ -20,6 +20,7 @@ const handleRefreshToken = (req, res) => {
   jwt.verify(refreshToken, process.env.REFRESH_TOKEN_SECRET, (err, decoded) => {
     if (err || decoded.username !== foundUser.username)
       return res.sendStatus(403);
+    console.log(decoded);
     const roles = Object.values(decoded.roles);
     const payload = {
       UserInfo: {
